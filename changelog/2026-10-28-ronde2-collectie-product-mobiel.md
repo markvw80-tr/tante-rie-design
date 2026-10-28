@@ -14,5 +14,5 @@ Desktop ongewijzigd (alles zit in mobiele media queries).
 **Screenshots:** `screenshots/2026-10-28-ronde2/` voor en na, mobiel (lokaal).
 **Niet getest:** een product met meerdere varianten op dit sjabloon, andere productsjablonen (Bunzlau, Rice, Blond, Joeff hebben eigen secties en zijn niet aangepast), Reviewer niet ingezet, toevoegen aan de winkelwagen.
 **Open ontwerpkeuze (niet gedaan):** de productfoto op mobiel kleiner of lager maken zodat titel en prijs in het eerste scherm passen; dat raakt de beeldverhouding en is aan Mark.
-**Rollback:** thema niet publiceren, of live terugzetten op 204204900616. Voor losse bestanden: de backups van ronde 1 (`changelog/2026-10-28-ronde1.backup-*`) voor `tr-base.css` en `theme.liquid`; de 11 collectiesecties zijn in te voeren terug te zetten door `339px` weer `400px` te maken.
+**Rollback:** thema niet publiceren, of live terugzetten op 204204900616. Voor losse bestanden: de backups van ronde 1 (`changelog/2026-10-28-ronde1.backup-*`) voor `tr-base.css` en `theme.liquid`; de 11 collectiesecties zijn terug te zetten door `339px` weer `400px` te maken.
 **Akkoord Mark:** gegeven voor bouwen (28-10); publiceren nog niet.
