@@ -1,0 +1,194 @@
+/* ─── TR Design System — Shared Component Styles ─────────────────────
+   Loaded via tr-design-tokens.liquid (rendered in <head> of theme.liquid).
+   Design tokens (--cream, --green, etc.) defined in tr-design-tokens.liquid.
+   Sections keep only their unique layout, spacing, and sizing rules.
+   ──────────────────────────────────────────────────────────────────── */
+
+/* Box-sizing reset for all TR wrappers */
+.trh-wrap *, .trh-wrap *::before, .trh-wrap *::after,
+.trc-wrap *, .trc-wrap *::before, .trc-wrap *::after,
+.tr-wrap  *, .tr-wrap  *::before, .tr-wrap  *::after,
+.tra-wrap *, .tra-wrap *::before, .tra-wrap *::after,
+.trs-wrap *, .trs-wrap *::before, .trs-wrap *::after {
+  box-sizing: border-box; margin: 0; padding: 0;
+}
+
+/* Wrapper base */
+.trh-wrap, .trc-wrap, .tr-wrap, .tra-wrap, .trs-wrap {
+  background: var(--cream);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Primary button — shared visual identity (section adds padding, font-size, display) */
+.trh-btn-primary, .tra-btn-primary, .tr-btn-primary, .tr404-btn-primary {
+  background: var(--brown-dark);
+  color: var(--white);
+  border: none;
+  border-radius: 50px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background .2s, transform .15s;
+}
+.trh-btn-primary:hover, .tra-btn-primary:hover, .tr-btn-primary:hover {
+  background: var(--brown); transform: translateY(-1px);
+}
+.tr404-btn-primary:hover { background: var(--brown); }
+
+/* Secondary button — shared visual identity */
+.trh-btn-secondary, .tra-btn-secondary, .tr-btn-secondary, .tr404-btn-secondary {
+  background: transparent;
+  color: var(--brown-dark);
+  border: 1.5px solid var(--brown-light);
+  border-radius: 50px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background .2s;
+}
+.trh-btn-secondary:hover, .tra-btn-secondary:hover,
+.tr-btn-secondary:hover, .tr404-btn-secondary:hover { background: var(--cream-dark); }
+
+/* Compact ATC buttons */
+.trh-prod-btn, .trc-atc-btn {
+  background: var(--brown-dark);
+  color: var(--white);
+  border: none;
+  border-radius: 50px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.trh-prod-btn { padding: 7px 14px; transition: background .2s; }
+.trh-prod-btn:hover { background: var(--brown); }
+.trh-prod-btn.tr-atc-added { background: var(--green); }
+.trc-atc-btn { padding: 8px 16px; transition: background .2s, transform .15s; }
+.trc-atc-btn:hover:not(:disabled) { background: var(--brown); transform: translateY(-1px); }
+.trc-atc-btn.tr-atc-added { background: var(--green); }
+
+/* Dividers */
+.trh-divider { width: 48px; height: 2px; background: var(--brown-light); border-radius: 2px; margin: 24px 0; }
+.tr-divider, .tra-divider { width: 48px; height: 2px; background: var(--brown-light); border-radius: 2px; margin: 0 0 28px; }
+
+/* Compact ATC buttons on very small screens */
+@media (max-width: 400px) {
+  .trc-atc-btn { font-size: 10px; padding: 7px 10px; }
+  .trh-prod-btn { font-size: 10px; padding: 6px 10px; }
+}
+
+/* Breadcrumbs */
+.tr-breadcrumb, .tra-breadcrumb { padding: 14px 5vw; font-size: 12px; color: var(--text-muted); letter-spacing: .04em; }
+.trc-breadcrumb { font-size: 12px; color: var(--text-muted); letter-spacing: .04em; }
+.tr-breadcrumb a, .trc-breadcrumb a, .tra-breadcrumb a { color: var(--text-muted); text-decoration: none; }
+.tr-breadcrumb a:hover, .trc-breadcrumb a:hover, .tra-breadcrumb a:hover { color: var(--brown); }
+.tr-breadcrumb span, .trc-breadcrumb span, .tra-breadcrumb span { margin: 0 6px; }
+
+/* ATC-knop op mobiel: cirkel met cart-icoon */
+@media (max-width: 767px) {
+  [data-tr-atc] {
+    flex-shrink: 0;
+    width: 40px !important;
+    height: 40px !important;
+    min-width: 40px !important;
+    padding: 0 !important;
+    border-radius: 50% !important;
+    font-size: 0 !important;
+    letter-spacing: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  [data-tr-atc]::before {
+    content: '';
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z'/%3E%3Cline x1='3' y1='6' x2='21' y2='6'/%3E%3Cpath d='M16 10a4 4 0 0 1-8 0'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  [data-tr-atc].tr-atc-added::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
+  }
+  [data-tr-atc]:disabled::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z'/%3E%3Cline x1='3' y1='6' x2='21' y2='6'/%3E%3Cpath d='M16 10a4 4 0 0 1-8 0'/%3E%3C/svg%3E");
+  }
+}
+
+/* ── Compact USP bar on scroll ─────────────────────────────────────────── */
+[class*="-usp-item"] { transition: padding .3s ease; }
+[class*="-usp-icon"] { transition: font-size .3s ease; }
+[class*="-usp-text"] strong { transition: font-size .3s ease; }
+[class*="-usp-text"] span { transition: font-size .3s ease, opacity .3s ease; }
+
+[class*="-usp-bar"].tr-usp-compact [class*="-usp-inner"] {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  justify-content: flex-start;
+}
+[class*="-usp-bar"].tr-usp-compact [class*="-usp-inner"]::-webkit-scrollbar { display: none; }
+[class*="-usp-bar"].tr-usp-compact [class*="-usp-item"] {
+  padding: 8px 20px !important;
+  min-width: auto !important;
+  flex: 0 0 auto !important;
+  border-bottom: none !important;
+}
+[class*="-usp-bar"].tr-usp-compact [class*="-usp-icon"] { font-size: 1rem; }
+[class*="-usp-bar"].tr-usp-compact [class*="-usp-text"] {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+[class*="-usp-bar"].tr-usp-compact [class*="-usp-text"] strong {
+  font-size: 11.5px;
+  white-space: nowrap;
+}
+[class*="-usp-bar"].tr-usp-compact [class*="-usp-text"] span {
+  display: block !important;
+  font-size: 10px;
+  opacity: 0.6;
+  white-space: nowrap;
+}
+
+/* ── Sort select: icoon-knop ────────────────────────────────────────────── */
+[class*="-filter-sort"] {
+  width: 38px !important;
+  height: 38px !important;
+  padding: 0 !important;
+  border-radius: 50% !important;
+  flex-shrink: 0;
+  color: transparent !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%232a2a1a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='3' y1='6' x2='21' y2='6'/%3E%3Cline x1='7' y1='12' x2='17' y2='12'/%3E%3Cline x1='11' y1='18' x2='13' y2='18'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 16px !important;
+}
+
+/* ── Filter groups: horizontal scroll ─────────────────────────────────── */
+[class*="-filter-toolbar"] { flex-wrap: nowrap !important; overflow: hidden; }
+[class*="-filter-groups"] {
+  flex-wrap: nowrap !important;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  flex: 1 1 auto;
+  min-width: 0;
+  padding-bottom: 2px;
+}
+[class*="-filter-groups"]::-webkit-scrollbar { display: none; }
