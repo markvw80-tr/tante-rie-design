@@ -47,12 +47,19 @@ Productkaart: vierkant (1:1), `object-fit: contain` met 16 px opvulling op #eef1
 
 Kaart-hover lift [T], paginaovergang aan [T], `prefers-reduced-motion` wordt gehonoreerd in de collectiesecties. Reviews via Judge.me, gestijld in tr-design.css (pilknoppen #1c1c14, sterren #6b4c30).
 
+## Besluiten van Mark (28-10-2026, in de chat)
+
+1. Lettertype lopende tekst en knoppen: DM Sans overal (Inter vervalt). Sluit open punt 1.
+2. Knopstijl: zwart (#1c1c14) in pilvorm (50 px) is leidend, ook voor Afrekenen in de winkelwagen; hover #6b4c30. Sluit open punt 2.
+3. Collectiekleuren per categorie blijven; Design bewaakt contrast (minimaal AA) en maakt alleen tekst donkerder die onder AA valt. Sluit open punt 3.
+4. Donkergrijze footer (kleurschema 5) blijft zoals hij is. Sluit open punt 4; kleurschema's 4 en 6 blijven onbeoordeeld.
+
 ## Open punten (niet geraden, besluit Mark nodig)
 
-1. Twee schreefloze lettertypen live: Inter (themainstelling, body) en DM Sans (alle tr-secties, knoppen, menu). Welk lettertype is de merkstandaard voor lopende tekst en knoppen?
-2. Twee knopstijlen naast elkaar: thema groen #3b5240 met hoek 14 px, tr-secties zwart #1c1c14 met pil 50 px, collecties met accentkleur. Welke is leidend voor nieuwe knoppen?
-3. Zijn de collectie-accentkleuren (bruin, groen, paars, blauw, klei, oranje) bewust per categorie, of moet elke collectie één merkaccent krijgen?
-4. Thema-kleurschema's 4 (blauw), 5 (donkergrijs) en 6 (wit transparant) passen niet bij het palet. In gebruik of restant? Niet nagelopen waar ze worden toegepast.
+1. (BESLOTEN 28-10: DM Sans) Twee schreefloze lettertypen live: Inter (themainstelling, body) en DM Sans (alle tr-secties, knoppen, menu). Welk lettertype is de merkstandaard voor lopende tekst en knoppen?
+2. (BESLOTEN 28-10: zwart pil) Twee knopstijlen naast elkaar: thema groen #3b5240 met hoek 14 px, tr-secties zwart #1c1c14 met pil 50 px, collecties met accentkleur. Welke is leidend voor nieuwe knoppen?
+3. (BESLOTEN 28-10: houden) Zijn de collectie-accentkleuren (bruin, groen, paars, blauw, klei, oranje) bewust per categorie, of moet elke collectie één merkaccent krijgen?
+4. (BESLOTEN 28-10 voor schema 5: footer blijft; schema 4 en 6 nog open) Thema-kleurschema's 4 (blauw), 5 (donkergrijs) en 6 (wit transparant) passen niet bij het palet. In gebruik of restant? Niet nagelopen waar ze worden toegepast.
 5. Geen spacingschaal en geen vaste breekpuntenset. Wil Mark een schaal vastleggen (bijvoorbeeld 8/16/24/48/64) of de huidige waarden bevriezen?
 6. Paginabreedte: thema "smal" tegenover 1440 px in tr-design.css. Welke geldt op welke pagina?
 7. Koptypografie: themaschaal (H1 56) wijkt af van live (H1 48, clamp). Is de clamp de bedoelde schaal?
