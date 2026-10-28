@@ -43,3 +43,20 @@ Punt 5, 6 en 7 sluiten niet; de voorstellen gebruiken bestaande waarden. Een nie
 ## Voorstel voor de volgorde
 
 Ronde 1 (klein, direct waarde): punten 1 en 2, daarna 5 voor knoppen en breadcrumb. Ronde 2: punt 3 en 4. Ronde 3: punt 6 met meting vooraf en achteraf. Elke ronde op een ontwikkelthema met screenshots voor en na, Reviewer ingezet voor ronde 3. Mark publiceert zelf.
+
+## Aanvulling: winkelwagen en checkout, mobiel (28-10-2026)
+
+Gemeten op ontwikkelthema 204337217800 met Earl Grey in een lege browser; niets ingevuld, niet afgerekend, de wagen is daarna weggegooid. Screenshots in `screenshots/2026-10-28-cart/`.
+
+**Werkt:** de nieuwe hoofdknop voegt toe (wagen telt 1, totaal €4,75), de knop toont kort "Toegevoegd" in bruin en de header-teller springt naar 1. De cart-instelling is "drawer", maar de eigen productknop opent geen drawer, hij bevestigt alleen op de knop; klanten zien dus pas na een tik op de header-wagen wat erin zit (keuze voor Mark: drawer openen na toevoegen is gebruikelijk en vermindert uitval).
+
+**Winkelwagenpagina, wat goed is:** compact, groot duidelijk totaal, "Afrekenen" direct zichtbaar, geen horizontale scroll, pagina 2.695 px.
+
+**Verbeterpunten (klein tot middel):**
+1. Knopkleur wisselt: "Afrekenen" is groen (#3b5240, themaknop), productknop zwart (#1c1c14). Dit is open punt 2 van de stijlgids; niet zelf beslist.
+2. Drie felgekleurde snelbetaalknoppen (Shop Pay paars, PayPal geel, Google Pay zwart) staan direct onder "Afrekenen" en concurreren erom. Voorstel: Afrekenen vóór de snelknoppen laten, snelknoppen kleiner of onder een "of"-kop. Instelling van de betaalknoppen zit deels in Shopify, deels in het thema.
+3. Aanbevolen producten onderaan tonen prijs als "€4,95 EUR" terwijl de rest van de shop "€4,95" toont (themainstelling `currency_code_enabled_product_cards`), en hebben geen toevoegen-knop.
+4. Het aantal-veld (min, plus, prullenbak) is kleiner dan 44 px.
+5. De footer is donkergrijs (#333333, kleurschema 5) en past niet bij het lichte merkpalet; dit beantwoordt stijlgids open punt 4: schema 5 is in gebruik.
+
+**Checkout (Shopify-gehost, buiten het thema):** logo en kleuren kloppen met het merk, "Afhalen" is een keuze naast "Verzenden". Let op: het vakje "Stuur mij een e-mail met nieuws en aanbiedingen" staat **vooraf aangevinkt**. Voor Nederland vraagt dat om toestemming die niet vooraf is aangevinkt; dit is een Shopify-checkoutinstelling (Instellingen, Klantaccounts en Checkout) en geen themawijziging. Doorzetten naar Mark; Design verandert dit niet.
