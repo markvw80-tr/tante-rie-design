@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read", "Glob", "Grep",
+      "Bash(python3 scripts/*)", "Bash(python3 \"$HOME/Tante Rie SEO/scripts/mailbox.py\"*)",
+      "Bash(shopify theme list*)", "Bash(shopify theme pull*)", "Bash(shopify theme check*)",
+      "Bash(graphify query*)", "Bash(graphify update*)", "Bash(ls*)", "Bash(mkdir*)"
+    ],
+    "deny": [
+      "Read(.env)", "Bash(rm -rf*)", "Bash(git push --force*)",
+      "Bash(shopify theme publish*)", "Bash(shopify theme push*--live*)", "Bash(shopify theme push*-l *)"
+    ]
+  }
+}

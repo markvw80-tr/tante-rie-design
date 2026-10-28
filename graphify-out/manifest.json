@@ -1,0 +1,67 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1793210401.3763697,
+    "ast_hash": "10912aae95efd0e78f11e16c2c537357",
+    "semantic_hash": ""
+  },
+  "scripts/screenshot.py": {
+    "mtime": 1793210831.852592,
+    "ast_hash": "66deb10cebb757049c36df83c36cc0b9",
+    "semantic_hash": ""
+  },
+  "scripts/sessiestart.py": {
+    "mtime": 1793210409.0869362,
+    "ast_hash": "233efc3cfa273302f1acc32427d0d2aa",
+    "semantic_hash": ""
+  },
+  ".claude/agents/design-lead.md": {
+    "mtime": 1793210401.0415335,
+    "ast_hash": "e4191ab0a6c5a3a2cafde732c2bf54bb",
+    "semantic_hash": ""
+  },
+  ".claude/agents/perf-a11y-reviewer.md": {
+    "mtime": 1793210401.05816,
+    "ast_hash": "72a0537242036d95d6c4d62de0711967",
+    "semantic_hash": ""
+  },
+  ".claude/agents/theme-developer.md": {
+    "mtime": 1793210401.045869,
+    "ast_hash": "4cea068b43bb6ac9b4ee6a770f19f9f1",
+    "semantic_hash": ""
+  },
+  ".claude/agents/ux-cro.md": {
+    "mtime": 1793210401.04961,
+    "ast_hash": "69712561f9d126ba19df53b0b38b952a",
+    "semantic_hash": ""
+  },
+  ".claude/agents/visual-brand.md": {
+    "mtime": 1793210401.0538313,
+    "ast_hash": "5983b85fc2f22e670df8b202991029ed",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1793210366.2241836,
+    "ast_hash": "0989c01976648b3def8d731559b856a8",
+    "semantic_hash": ""
+  },
+  "changelog/2026-10-28-zwarte-thee-h2.md": {
+    "mtime": 1793210905.5161183,
+    "ast_hash": "94b7f1e0efad34965d9ea6b6877e92a7",
+    "semantic_hash": ""
+  },
+  "opdrachten/2026-10-28-test-collectie-zwarte-thee.md": {
+    "mtime": 1793210492.5048788,
+    "ast_hash": "471cad44a688d8274f4df62e98fe044a",
+    "semantic_hash": ""
+  },
+  "stijlgids/README.md": {
+    "mtime": 1793210333.296157,
+    "ast_hash": "d2d469d023d658c01669649dfa2ca5d3",
+    "semantic_hash": ""
+  },
+  "stijlgids/tante-rie/stijlgids.md": {
+    "mtime": 1793210333.355651,
+    "ast_hash": "85c4f76972f01cfeeba5e20a04c8cdc0",
+    "semantic_hash": ""
+  }
+}

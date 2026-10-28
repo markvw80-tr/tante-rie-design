@@ -1,0 +1,659 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L1",
+      "id": "claude_settings",
+      "community": 3,
+      "norm_label": "settings.json"
+    },
+    {
+      "label": "permissions",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "id": "claude_settings_permissions",
+      "community": 3,
+      "norm_label": "permissions"
+    },
+    {
+      "label": "allow",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "id": "claude_settings_permissions_allow",
+      "community": 3,
+      "norm_label": "allow"
+    },
+    {
+      "label": "deny",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L9",
+      "id": "claude_settings_permissions_deny",
+      "community": 3,
+      "norm_label": "deny"
+    },
+    {
+      "label": "screenshot.py",
+      "file_type": "code",
+      "source_file": "scripts/screenshot.py",
+      "source_location": "L1",
+      "id": "scripts_screenshot",
+      "community": 5,
+      "norm_label": "screenshot.py"
+    },
+    {
+      "label": "Screenshots voor en na op desktop (1440 px) en mobiel (390 px).  Gebruik:   pyth",
+      "file_type": "rationale",
+      "source_file": "scripts/screenshot.py",
+      "source_location": "L1",
+      "id": "scripts_screenshot_rationale_1",
+      "community": 5,
+      "norm_label": "screenshots voor en na op desktop (1440 px) en mobiel (390 px).  gebruik:   pyth"
+    },
+    {
+      "label": "sessiestart.py",
+      "file_type": "code",
+      "source_file": "scripts/sessiestart.py",
+      "source_location": "L1",
+      "id": "scripts_sessiestart",
+      "community": 6,
+      "norm_label": "sessiestart.py"
+    },
+    {
+      "label": "Compacte sessiestart voor het Design-team.  Haalt tante-rie-hq op en toont allee",
+      "file_type": "rationale",
+      "source_file": "scripts/sessiestart.py",
+      "source_location": "L1",
+      "id": "scripts_sessiestart_rationale_1",
+      "community": 6,
+      "norm_label": "compacte sessiestart voor het design-team.  haalt tante-rie-hq op en toont allee"
+    },
+    {
+      "label": "design-lead.md",
+      "file_type": "document",
+      "source_file": ".claude/agents/design-lead.md",
+      "source_location": "L1",
+      "id": "agents_design_lead",
+      "community": 8,
+      "norm_label": "design-lead.md"
+    },
+    {
+      "label": "perf-a11y-reviewer.md",
+      "file_type": "document",
+      "source_file": ".claude/agents/perf-a11y-reviewer.md",
+      "source_location": "L1",
+      "id": "agents_perf_a11y_reviewer",
+      "community": 9,
+      "norm_label": "perf-a11y-reviewer.md"
+    },
+    {
+      "label": "theme-developer.md",
+      "file_type": "document",
+      "source_file": ".claude/agents/theme-developer.md",
+      "source_location": "L1",
+      "id": "agents_theme_developer",
+      "community": 10,
+      "norm_label": "theme-developer.md"
+    },
+    {
+      "label": "ux-cro.md",
+      "file_type": "document",
+      "source_file": ".claude/agents/ux-cro.md",
+      "source_location": "L1",
+      "id": "agents_ux_cro",
+      "community": 11,
+      "norm_label": "ux-cro.md"
+    },
+    {
+      "label": "visual-brand.md",
+      "file_type": "document",
+      "source_file": ".claude/agents/visual-brand.md",
+      "source_location": "L1",
+      "id": "agents_visual_brand",
+      "community": 12,
+      "norm_label": "visual-brand.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude",
+      "community": 0,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "Tante Rie: Webshop Design-team",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude_tante_rie_webshop_design_team",
+      "community": 0,
+      "norm_label": "tante rie: webshop design-team"
+    },
+    {
+      "label": "Doel",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L3",
+      "id": "claude_doel",
+      "community": 0,
+      "norm_label": "doel"
+    },
+    {
+      "label": "Taal",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L7",
+      "id": "claude_taal",
+      "community": 0,
+      "norm_label": "taal"
+    },
+    {
+      "label": "Teamstart: twee rollen actief",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L11",
+      "id": "claude_teamstart_twee_rollen_actief",
+      "community": 0,
+      "norm_label": "teamstart: twee rollen actief"
+    },
+    {
+      "label": "Harde regels",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L15",
+      "id": "claude_harde_regels",
+      "community": 0,
+      "norm_label": "harde regels"
+    },
+    {
+      "label": "Werkwijze voor een opdracht",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L27",
+      "id": "claude_werkwijze_voor_een_opdracht",
+      "community": 0,
+      "norm_label": "werkwijze voor een opdracht"
+    },
+    {
+      "label": "Overdracht en communicatie met HQ, SEO en PIM",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L38",
+      "id": "claude_overdracht_en_communicatie_met_hq_seo_en_pim",
+      "community": 0,
+      "norm_label": "overdracht en communicatie met hq, seo en pim"
+    },
+    {
+      "label": "Team",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L52",
+      "id": "claude_team",
+      "community": 0,
+      "norm_label": "team"
+    },
+    {
+      "label": "Zuinig werken",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L64",
+      "id": "claude_zuinig_werken",
+      "community": 0,
+      "norm_label": "zuinig werken"
+    },
+    {
+      "label": "Overige mappen",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L68",
+      "id": "claude_overige_mappen",
+      "community": 0,
+      "norm_label": "overige mappen"
+    },
+    {
+      "label": "2026-10-28-zwarte-thee-h2.md",
+      "file_type": "document",
+      "source_file": "changelog/2026-10-28-zwarte-thee-h2.md",
+      "source_location": "L1",
+      "id": "changelog_2026_10_28_zwarte_thee_h2",
+      "community": 2,
+      "norm_label": "2026-10-28-zwarte-thee-h2.md"
+    },
+    {
+      "label": "2026-10-28, collectiepagina Zwarte Thee: H2 boven het productraster (TEST van de opzet)",
+      "file_type": "document",
+      "source_file": "changelog/2026-10-28-zwarte-thee-h2.md",
+      "source_location": "L1",
+      "id": "changelog_2026_10_28_zwarte_thee_h2_2026_10_28_collectiepagina_zwarte_thee_h2_boven_het_productraster_test_van_de_opzet",
+      "community": 2,
+      "norm_label": "2026-10-28, collectiepagina zwarte thee: h2 boven het productraster (test van de opzet)"
+    },
+    {
+      "label": "Rollback",
+      "file_type": "document",
+      "source_file": "changelog/2026-10-28-zwarte-thee-h2.md",
+      "source_location": "L11",
+      "id": "changelog_2026_10_28_zwarte_thee_h2_rollback",
+      "community": 2,
+      "norm_label": "rollback"
+    },
+    {
+      "label": "Review",
+      "file_type": "document",
+      "source_file": "changelog/2026-10-28-zwarte-thee-h2.md",
+      "source_location": "L14",
+      "id": "changelog_2026_10_28_zwarte_thee_h2_review",
+      "community": 2,
+      "norm_label": "review"
+    },
+    {
+      "label": "2026-10-28-test-collectie-zwarte-thee.md",
+      "file_type": "document",
+      "source_file": "opdrachten/2026-10-28-test-collectie-zwarte-thee.md",
+      "source_location": "L1",
+      "id": "opdrachten_2026_10_28_test_collectie_zwarte_thee",
+      "community": 4,
+      "norm_label": "2026-10-28-test-collectie-zwarte-thee.md"
+    },
+    {
+      "label": "Opdracht: test van de opzet, collectiepagina Zwarte Thee",
+      "file_type": "document",
+      "source_file": "opdrachten/2026-10-28-test-collectie-zwarte-thee.md",
+      "source_location": "L1",
+      "id": "opdrachten_2026_10_28_test_collectie_zwarte_thee_opdracht_test_van_de_opzet_collectiepagina_zwarte_thee",
+      "community": 4,
+      "norm_label": "opdracht: test van de opzet, collectiepagina zwarte thee"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "stijlgids/README.md",
+      "source_location": "L1",
+      "id": "stijlgids_readme",
+      "community": 7,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Stijlgidsen",
+      "file_type": "document",
+      "source_file": "stijlgids/README.md",
+      "source_location": "L1",
+      "id": "stijlgids_readme_stijlgidsen",
+      "community": 7,
+      "norm_label": "stijlgidsen"
+    },
+    {
+      "label": "stijlgids.md",
+      "file_type": "document",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L1",
+      "id": "tante_rie_stijlgids",
+      "community": 1,
+      "norm_label": "stijlgids.md"
+    },
+    {
+      "label": "Stijlgids Tante Rie",
+      "file_type": "document",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L1",
+      "id": "tante_rie_stijlgids_stijlgids_tante_rie",
+      "community": 1,
+      "norm_label": "stijlgids tante rie"
+    },
+    {
+      "label": "1. Kleuren",
+      "file_type": "document",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L5",
+      "id": "tante_rie_stijlgids_1_kleuren",
+      "community": 1,
+      "norm_label": "1. kleuren"
+    },
+    {
+      "label": "2. Typografie",
+      "file_type": "document",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L28",
+      "id": "tante_rie_stijlgids_2_typografie",
+      "community": 1,
+      "norm_label": "2. typografie"
+    },
+    {
+      "label": "3. Spacing en layout",
+      "file_type": "document",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L34",
+      "id": "tante_rie_stijlgids_3_spacing_en_layout",
+      "community": 1,
+      "norm_label": "3. spacing en layout"
+    },
+    {
+      "label": "4. Knoppen en vormen",
+      "file_type": "document",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L38",
+      "id": "tante_rie_stijlgids_4_knoppen_en_vormen",
+      "community": 1,
+      "norm_label": "4. knoppen en vormen"
+    },
+    {
+      "label": "5. Beeldgebruik",
+      "file_type": "document",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L42",
+      "id": "tante_rie_stijlgids_5_beeldgebruik",
+      "community": 1,
+      "norm_label": "5. beeldgebruik"
+    },
+    {
+      "label": "6. Interactie",
+      "file_type": "document",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L46",
+      "id": "tante_rie_stijlgids_6_interactie",
+      "community": 1,
+      "norm_label": "6. interactie"
+    },
+    {
+      "label": "Open punten (niet geraden, besluit Mark nodig)",
+      "file_type": "document",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L50",
+      "id": "tante_rie_stijlgids_open_punten_niet_geraden_besluit_mark_nodig",
+      "community": 1,
+      "norm_label": "open punten (niet geraden, besluit mark nodig)"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "claude_settings",
+      "target": "claude_settings_permissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_settings_permissions",
+      "target": "claude_settings_permissions_allow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_settings_permissions",
+      "target": "claude_settings_permissions_deny",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/screenshot.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_screenshot_rationale_1",
+      "target": "scripts_screenshot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sessiestart.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_sessiestart_rationale_1",
+      "target": "scripts_sessiestart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "claude_tante_rie_webshop_design_team",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_tante_rie_webshop_design_team",
+      "target": "claude_doel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "claude_tante_rie_webshop_design_team",
+      "target": "claude_harde_regels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "claude_tante_rie_webshop_design_team",
+      "target": "claude_overdracht_en_communicatie_met_hq_seo_en_pim",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "claude_tante_rie_webshop_design_team",
+      "target": "claude_overige_mappen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "claude_tante_rie_webshop_design_team",
+      "target": "claude_taal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "claude_tante_rie_webshop_design_team",
+      "target": "claude_team",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "claude_tante_rie_webshop_design_team",
+      "target": "claude_teamstart_twee_rollen_actief",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "claude_tante_rie_webshop_design_team",
+      "target": "claude_werkwijze_voor_een_opdracht",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "claude_tante_rie_webshop_design_team",
+      "target": "claude_zuinig_werken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "changelog/2026-10-28-zwarte-thee-h2.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "changelog_2026_10_28_zwarte_thee_h2",
+      "target": "changelog_2026_10_28_zwarte_thee_h2_2026_10_28_collectiepagina_zwarte_thee_h2_boven_het_productraster_test_van_de_opzet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "changelog/2026-10-28-zwarte-thee-h2.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "changelog_2026_10_28_zwarte_thee_h2_2026_10_28_collectiepagina_zwarte_thee_h2_boven_het_productraster_test_van_de_opzet",
+      "target": "changelog_2026_10_28_zwarte_thee_h2_review",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "changelog/2026-10-28-zwarte-thee-h2.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "changelog_2026_10_28_zwarte_thee_h2_2026_10_28_collectiepagina_zwarte_thee_h2_boven_het_productraster_test_van_de_opzet",
+      "target": "changelog_2026_10_28_zwarte_thee_h2_rollback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "opdrachten/2026-10-28-test-collectie-zwarte-thee.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "opdrachten_2026_10_28_test_collectie_zwarte_thee",
+      "target": "opdrachten_2026_10_28_test_collectie_zwarte_thee_opdracht_test_van_de_opzet_collectiepagina_zwarte_thee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stijlgids/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "stijlgids_readme",
+      "target": "stijlgids_readme_stijlgidsen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "tante_rie_stijlgids",
+      "target": "tante_rie_stijlgids_stijlgids_tante_rie",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "tante_rie_stijlgids_stijlgids_tante_rie",
+      "target": "tante_rie_stijlgids_1_kleuren",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "tante_rie_stijlgids_stijlgids_tante_rie",
+      "target": "tante_rie_stijlgids_2_typografie",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "tante_rie_stijlgids_stijlgids_tante_rie",
+      "target": "tante_rie_stijlgids_3_spacing_en_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "tante_rie_stijlgids_stijlgids_tante_rie",
+      "target": "tante_rie_stijlgids_4_knoppen_en_vormen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "tante_rie_stijlgids_stijlgids_tante_rie",
+      "target": "tante_rie_stijlgids_5_beeldgebruik",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "tante_rie_stijlgids_stijlgids_tante_rie",
+      "target": "tante_rie_stijlgids_6_interactie",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stijlgids/tante-rie/stijlgids.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "tante_rie_stijlgids_stijlgids_tante_rie",
+      "target": "tante_rie_stijlgids_open_punten_niet_geraden_besluit_mark_nodig",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
