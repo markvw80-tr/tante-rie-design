@@ -16,3 +16,10 @@ Desktop ongewijzigd (alles zit in mobiele media queries).
 **Open ontwerpkeuze (niet gedaan):** de productfoto op mobiel kleiner of lager maken zodat titel en prijs in het eerste scherm passen; dat raakt de beeldverhouding en is aan Mark.
 **Rollback:** thema niet publiceren, of live terugzetten op 204204900616. Voor losse bestanden: de backups van ronde 1 (`changelog/2026-10-28-ronde1.backup-*`) voor `tr-base.css` en `theme.liquid`; de 11 collectiesecties zijn terug te zetten door `339px` weer `400px` te maken.
 **Akkoord Mark:** gegeven voor bouwen (28-10); publiceren nog niet.
+
+## Aanvulling: knop "Kies decor" afgesneden op Bunzlau (gemeld door Mark)
+
+**Oorzaak:** een gevolg van de twee kolommen uit deze ronde. Prijs (1,4 rem) en de knop "Kies decor" (101 px) stonden naast elkaar in de kaartvoet, maar de kaart is op 390 px maar 173 px breed met 149 px bruikbaar; de knop stak 8 px buiten de kaart (gemeten op 390 en 360 px). Dezelfde fout zat in "Bestel nu" bij Blond.
+**Wat:** in `sections/tr-collection-bunzlau.liquid` en `sections/tr-collection-blond.liquid` mag de kaartvoet op mobiel (max 700 px) afbreken: de knop staat op een eigen regel over de volle kaartbreedte, minimaal 44 px hoog.
+**Gemeten op 204342395144:** alle 13 collecties op 390 en 360 px: geen enkel element meer buiten zijn kaart; Blond ook op 412 px schoon; geen horizontale scroll. Screenshot: `screenshots/2026-10-28-ronde2/bunzlau-na-fix-kaarten.png`.
+**Open (klein):** het label "Op voorraad in 1 decor" breekt op Bunzlau-kaarten over twee regels en loopt tot de kaartrand. Niet aangepast.
