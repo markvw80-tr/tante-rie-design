@@ -10,14 +10,13 @@ import sys
 from pathlib import Path
 
 HQ = Path.home() / "tante-rie-hq"
-SEO = Path.home() / "Tante Rie SEO"
 BLOKKEN = int(sys.argv[1]) if len(sys.argv) > 1 else 3
 
 pull = subprocess.run(["git", "-C", str(HQ), "pull", "-q"], capture_output=True, text=True)
 print("hq pull:", "ok" if pull.returncode == 0 else pull.stderr.strip()[:200])
 
 print("\nMailbox design:")
-subprocess.run(["python3", str(SEO / "scripts/mailbox.py"), "lijst", "design"])
+subprocess.run(["python3", str(HQ / "scripts/mailbox.py"), "lijst", "design"])
 
 blokken, huidig = [], None
 for regel in (HQ / "team/status.md").read_text().splitlines():
