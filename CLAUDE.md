@@ -1,5 +1,7 @@
 # Tante Rie: Webshop Design-team
 
+Gedeelde doelen en prioriteit voor alle teams: `~/tante-rie-hq/team/doelen.md`. De directie-agent in tante-rie-hq bewaakt die en signaleert achterstand tussen de teams.
+
 ## Doel
 
 De webshop van Tante Rie (tanterie.nl) er beter uit laten zien, beter laten werken en beter laten converteren, binnen de merkstijl van Tante Rie. Het team werkt uitsluitend aan Tante Rie. Dutch Tea Maestro valt buiten scope en volgt later; er wordt nu niets voor voorbereid behalve de merkmappen-indeling in `stijlgids/`. Het oude subdomein webshop.tanterie.nl is een 301-restant; werk altijd met tanterie.nl.
