@@ -60,5 +60,16 @@
         ]
       }
     ]
+  },
+  "enabledPlugins": {
+    "tante-rie-huisregels@tante-rie": true
+  },
+  "extraKnownMarketplaces": {
+    "tante-rie": {
+      "source": {
+        "source": "directory",
+        "path": "/Users/markvanwijk/tante-rie-hq"
+      }
+    }
   }
 }
