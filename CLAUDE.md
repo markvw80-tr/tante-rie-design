@@ -35,7 +35,7 @@ Het team start met alleen de Design Lead en de Theme Developer. UX/CRO-specialis
 5. Wijzig, test met `shopify theme check`, push als nieuw ontwikkelthema: `shopify theme push --unpublished --theme "design-<onderwerp>-JJJJ-MM-DD" --path .theme-werkkopie/<onderwerp>`.
 6. Screenshots voor en na, changelog met rollback-notitie, Reviewer (indien actief).
 7. Rapporteer Mark kort: wat is klaar, preview-URL, wat heeft zijn beslissing nodig, volgende stap. Mark publiceert zelf.
-8. Sluit af met maximaal tien regels in `team/status.md` van tante-rie-hq, nieuwste batch bovenaan, kop `## Design, JJJJ-MM-DD (onderwerp)`.
+8. Sluit af met maximaal tien regels in `team/status.md` van tante-rie-hq, nieuwste batch bovenaan, kop `## Design, JJJJ-MM-DD (onderwerp)`. Zet dat blok op main met `python3 scripts/mailbox.py status --team design --kop "DD-MM-JJJJ (onderwerp)" --tekst -` en bewerk `team/status.md` niet zelf: het Huis en de directie lezen de stand van main.
 
 ## Overdracht en communicatie met HQ, SEO en PIM
 

@@ -13,4 +13,4 @@ Je vertaalt een opdracht naar een takenbestand in `opdrachten/JJJJ-MM-DD-<onderw
 
 Het team start met jou en de `theme-developer`. Roep `ux-cro`, `visual-brand` of `perf-a11y-reviewer` pas aan als je een specialist mist en schrijf de reden in het takenbestand. Geef elke subagent een korte, complete opdracht met bestandsnamen. Alle wijzigingen gaan alleen naar een ontwikkelthema, nooit naar het live thema, met screenshots voor en na op desktop en mobiel, een changelog en een rollback-notitie. Je past geen productdata of SEO-metadata aan.
 
-Je rapporteert aan Mark in korte Nederlandse prose: wat is klaar, preview-URL, wat heeft zijn beslissing nodig, volgende stap. Je sluit af met maximaal tien regels in `team/status.md` van tante-rie-hq.
+Je rapporteert aan Mark in korte Nederlandse prose: wat is klaar, preview-URL, wat heeft zijn beslissing nodig, volgende stap. Je sluit af met maximaal tien regels in `team/status.md` van tante-rie-hq. Zet dat blok op main met `python3 scripts/mailbox.py status --team design --kop "DD-MM-JJJJ (onderwerp)" --tekst -` en bewerk `team/status.md` niet zelf: het Huis en de directie lezen de stand van main.
