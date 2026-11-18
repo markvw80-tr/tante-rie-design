@@ -12,7 +12,11 @@
       "Bash(graphify query*)",
       "Bash(graphify update*)",
       "Bash(ls*)",
-      "Bash(mkdir*)"
+      "Bash(mkdir*)",
+      "Edit(~/tante-rie-hq/team/status.md)",
+      "Bash(git status*)",
+      "Bash(git log*)",
+      "Bash(git diff*)"
     ],
     "deny": [
       "Read(.env)",
