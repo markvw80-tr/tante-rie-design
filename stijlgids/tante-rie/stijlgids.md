@@ -1,6 +1,6 @@
 # Stijlgids Tante Rie
 
-Vastgelegd op 28-10-2026 uit `~/TanteRie-Theme-Editor` (config/settings_data.json, assets/tr-design.css, assets/tr-base.css, sections/tr-collection-*.liquid) en gemeten op https://tanterie.nl/collections/zwarte-thee. Het oude subdomein webshop.tanterie.nl is een 301-restant; het merk draait op tanterie.nl. Bronnen: [T] thema-instelling, [C] CSS-bestand, [L] live gemeten.
+Vastgelegd op 28-10-2026 uit `~/tante-rie/tante-rie-theme` (config/settings_data.json, assets/tr-design.css, assets/tr-base.css, sections/tr-collection-*.liquid) en gemeten op https://tanterie.nl/collections/zwarte-thee. Het oude subdomein webshop.tanterie.nl is een 301-restant; het merk draait op tanterie.nl. Bronnen: [T] thema-instelling, [C] CSS-bestand, [L] live gemeten.
 
 ## 1. Kleuren
 
@@ -65,4 +65,4 @@ Kaart-hover lift [T], paginaovergang aan [T], `prefers-reduced-motion` wordt geh
 7. Koptypografie: themaschaal (H1 56) wijkt af van live (H1 48, clamp). Is de clamp de bedoelde schaal?
 8. Fotografierichtlijn ontbreekt (stijl, achtergrond, sfeerbeeld versus productfreisteller). Alleen de technische verhoudingen zijn vastgelegd.
 9. Header, footer, menu en productpagina zijn nog niet uitgelezen voor kleur en maat; alleen collectiepagina's en globale instellingen. Aanvullen bij de eerste opdracht die daaraan raakt.
-10. Bronstatus: `~/TanteRie-Theme-Editor` heeft 40 niet-gecommitte wijzigingen ten opzichte van de laatste commit en kan afwijken van het live thema 204204900616. Voor waarden altijd het live thema vers ophalen (zie CLAUDE.md).
+10. Bronstatus: `~/tante-rie/tante-rie-theme` heeft 40 niet-gecommitte wijzigingen ten opzichte van de laatste commit en kan afwijken van het live thema 204204900616. Voor waarden altijd het live thema vers ophalen (zie CLAUDE.md).

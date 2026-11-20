@@ -1,6 +1,6 @@
 # Tante Rie: Webshop Design-team
 
-Gedeelde doelen en prioriteit voor alle teams: `~/tante-rie-hq/team/doelen.md`. De directie-agent in tante-rie-hq bewaakt die en signaleert achterstand tussen de teams.
+Gedeelde doelen en prioriteit voor alle teams: `~/tante-rie/tante-rie-hq/team/doelen.md`. De directie-agent in tante-rie-hq bewaakt die en signaleert achterstand tussen de teams.
 
 ## Doel
 
@@ -29,9 +29,9 @@ Het team start met alleen de Design Lead en de Theme Developer. UX/CRO-specialis
 ## Werkwijze voor een opdracht
 
 1. `python3 scripts/sessiestart.py`: haalt tante-rie-hq op en toont alleen de nieuwe berichten voor Design (Markdown-mailbox in tante-rie-hq) en de nieuwste statusblokken.
-2. Graaf eerst: `graphify query "<vraag>" --graph ~/TanteRie-Theme-Editor/graphify-out/graph.json --budget 1500`; open daarna alleen de bestanden of regelbereiken die de graaf aanwijst. Stijlvragen: `stijlgids/tante-rie/stijlgids.md`. Werk de themagraaf bij met `graphify update ~/TanteRie-Theme-Editor` na themawijzigingen.
+2. Graaf eerst: `graphify query "<vraag>" --graph ~/tante-rie/tante-rie-theme/graphify-out/graph.json --budget 1500`; open daarna alleen de bestanden of regelbereiken die de graaf aanwijst. Stijlvragen: `stijlgids/tante-rie/stijlgids.md`. Werk de themagraaf bij met `graphify update ~/tante-rie/tante-rie-theme` na themawijzigingen.
 3. Eisen ophalen waar nodig (SEO voor koppen, schema en interne links; PIM voor velden), zie Overdracht.
-4. Verse werkkopie van het live thema: `shopify theme pull --store 0qkm31-r6.myshopify.com --theme <live-id> --path .theme-werkkopie/<onderwerp>`. Het live thema-id staat in `team/status.md` en in de laatste regel van `marketing/changelog.md` van tante-rie-seo; controleer het met `shopify theme list`. Werk niet in `~/TanteRie-Theme-Editor` zonder te weten dat die map gelijk is aan het live thema (nu 40 niet-gecommitte afwijkingen).
+4. Verse werkkopie van het live thema: `shopify theme pull --store 0qkm31-r6.myshopify.com --theme <live-id> --path .theme-werkkopie/<onderwerp>`. Het live thema-id staat in `team/status.md` en in de laatste regel van `marketing/changelog.md` van tante-rie-seo; controleer het met `shopify theme list`. Werk niet in `~/tante-rie/tante-rie-theme` zonder te weten dat die map gelijk is aan het live thema (nu 40 niet-gecommitte afwijkingen).
 5. Wijzig, test met `shopify theme check`, push als nieuw ontwikkelthema: `shopify theme push --unpublished --theme "design-<onderwerp>-JJJJ-MM-DD" --path .theme-werkkopie/<onderwerp>`.
 6. Screenshots voor en na, changelog met rollback-notitie, Reviewer (indien actief).
 7. Rapporteer Mark kort: wat is klaar, preview-URL, wat heeft zijn beslissing nodig, volgende stap. Mark publiceert zelf.
@@ -39,7 +39,7 @@ Het team start met alleen de Design Lead en de Theme Developer. UX/CRO-specialis
 
 ## Overdracht en communicatie met HQ, SEO en PIM
 
-Design is een gelijkwaardig team naast SEO en PIM. Afspraken in tante-rie-hq: `team/werkafspraken-design.md`. Kanaal: de Markdown-mailbox in `~/tante-rie-hq/team/mailbox/` (teams `seo`, `pim`, `design`), bediend met `python3 scripts/mailbox.py` (verwijst door naar HQ) (`lijst design`, `lees`, `stuur --van design --aan <seo|pim>`, `verwerkt`). De JSON-mailboxen in tante-rie-hq zijn alleen voor productvelden-regels tussen SEO en PIM; Design gebruikt die niet.
+Design is een gelijkwaardig team naast SEO en PIM. Afspraken in tante-rie-hq: `team/werkafspraken-design.md`. Kanaal: de Markdown-mailbox in `~/tante-rie/tante-rie-hq/team/mailbox/` (teams `seo`, `pim`, `design`), bediend met `python3 scripts/mailbox.py` (verwijst door naar HQ) (`lijst design`, `lees`, `stuur --van design --aan <seo|pim>`, `verwerkt`). De JSON-mailboxen in tante-rie-hq zijn alleen voor productvelden-regels tussen SEO en PIM; Design gebruikt die niet.
 
 Elk bericht heeft een vaste opbouw in de berichttekst, zodat het zonder kop-lezen werkt: **Van**, **Naar**, **Doel**, **Benodigde input**, **Deadline** (de technische kop met van, aan, datum, onderwerp en prioriteit voegt het script zelf toe). Eén onderwerp per bericht.
 
@@ -69,4 +69,4 @@ Graaf eerst, grote bestanden (themasecties van honderden regels, `settings_data.
 
 ## Overige mappen
 
-`stijlgids/` merkmappen (nu `tante-rie/`), `changelog/` wijzigingen met rollback, `screenshots/` lokaal, `opdrachten/` takenbestanden per opdracht, `scripts/` hulpscripts. Themacode staat in `~/TanteRie-Theme-Editor` en op de Shopify-store; SEO-changelog en vragen voor Mark staan in `~/Tante Rie SEO`.
+`stijlgids/` merkmappen (nu `tante-rie/`), `changelog/` wijzigingen met rollback, `screenshots/` lokaal, `opdrachten/` takenbestanden per opdracht, `scripts/` hulpscripts. Themacode staat in `~/tante-rie/tante-rie-theme` en op de Shopify-store; SEO-changelog en vragen voor Mark staan in `~/tante-rie/tante-rie-seo`.

@@ -5,7 +5,7 @@
       "Glob",
       "Grep",
       "Bash(python3 scripts/*)",
-      "Bash(python3 \"$HOME/Tante Rie SEO/scripts/mailbox.py\"*)",
+      "Bash(python3 \"$HOME/tante-rie/tante-rie-seo/scripts/mailbox.py\"*)",
       "Bash(shopify theme list*)",
       "Bash(shopify theme pull*)",
       "Bash(shopify theme check*)",
@@ -68,7 +68,7 @@
     "tante-rie": {
       "source": {
         "source": "directory",
-        "path": "/Users/markvanwijk/tante-rie-hq"
+        "path": "/Users/markvanwijk/tante-rie/tante-rie-hq"
       }
     }
   }

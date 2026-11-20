@@ -9,7 +9,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-HQ = Path.home() / "tante-rie-hq"
+HQ = Path.home() / "tante-rie" / "tante-rie-hq"
 BLOKKEN = int(sys.argv[1]) if len(sys.argv) > 1 else 3
 
 pull = subprocess.run(["git", "-C", str(HQ), "pull", "-q"], capture_output=True, text=True)
