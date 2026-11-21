@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Tante Rie reviewkaartje 85 x 55 mm (met 3 mm afloop)</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=block" rel="stylesheet">
+<style>
+  /* Snijmaat 85 x 55 mm, afloop 3 mm rondom: pagina 91 x 61 mm.
+     Veilige zone: 4 mm binnen de snijlijn (7 mm vanaf de paginarand). */
+  @page { size: 91mm 61mm; margin: 0; }
+  :root {
+    --cream: #faf8f2; --text: #2a2a1a; --brown-dark: #1c1c14;
+    --brown: #6b4c30; --brown-light: #c8c4b8; --white: #ffffff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 91mm; height: 61mm; }
+  body {
+    background: var(--cream);
+    font-family: "DM Sans", sans-serif;
+    color: var(--text);
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .kaart {
+    position: absolute; left: 7mm; top: 7mm; width: 77mm; height: 47mm;
+    display: grid; grid-template-columns: 1fr 31mm; column-gap: 5mm; align-items: center;
+  }
+  .merk {
+    font-weight: 600; font-size: 9pt; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--brown-dark);
+    padding-bottom: 2.2mm; margin-bottom: 3mm; border-bottom: .3mm solid var(--brown-light);
+  }
+  h1 { text-wrap: balance; font-weight: 600; font-size: 10.5pt; line-height: 1.25; color: var(--brown-dark); margin-bottom: 2mm; }
+  p { text-wrap: balance; font-weight: 400; font-size: 8pt; line-height: 1.4; }
+  p + p { margin-top: 1.4mm; }
+  .qr {
+    background: var(--white); border-radius: 2mm; padding: 2mm;
+    width: 31mm; height: 31mm;
+  }
+  .qr svg { display: block; width: 27mm; height: 27mm; }
+</style>
+</head>
+<body>
+  <div class="kaart">
+    <div class="tekst">
+      <div class="merk">Tante Rie</div>
+      <h1>Fijn dat je bij Tante Rie was.</h1>
+      <p>Wil je vertellen hoe je het vond?</p>
+      <p>Scan de code, we lezen alles met aandacht.</p>
+    </div>
+    <div class="qr" aria-label="QR-code naar de Google-reviews van Tante Rie">
+      <!-- QR-code ongewijzigd, ingeladen uit qr-review.svg; alleen geschaald -->
+      <svg viewBox="0 0 490 490" xmlns="http://www.w3.org/2000/svg"><image href="qr-review.svg" width="490" height="490"/></svg>
+    </div>
+  </div>
+</body>
+</html>
