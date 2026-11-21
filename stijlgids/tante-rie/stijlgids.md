@@ -2,6 +2,8 @@
 
 Vastgelegd op 28-10-2026 uit `~/tante-rie/tante-rie-theme` (config/settings_data.json, assets/tr-design.css, assets/tr-base.css, sections/tr-collection-*.liquid) en gemeten op https://tanterie.nl/collections/zwarte-thee. Het oude subdomein webshop.tanterie.nl is een 301-restant; het merk draait op tanterie.nl. Bronnen: [T] thema-instelling, [C] CSS-bestand, [L] live gemeten.
 
+> Let op (21-11-2026): deze stijlgids is vastgelegd vóór de Hallmark-restyle die op 11-11-2026 live ging (thema 205262029064). De besluiten van Mark hieronder (DM Sans, zwarte pilknop, collectiekleuren, footer) blijven gelden; kleur- en maatwaarden kunnen sinds de restyle afwijken en moeten bij de volgende stijlgidsronde opnieuw op het live thema gemeten worden. Open punt 2 over de knopkleur is besloten: zwarte pilknop.
+
 ## 1. Kleuren
 
 Basispalet [C tr-design.css]
@@ -65,4 +67,4 @@ Kaart-hover lift [T], paginaovergang aan [T], `prefers-reduced-motion` wordt geh
 7. Koptypografie: themaschaal (H1 56) wijkt af van live (H1 48, clamp). Is de clamp de bedoelde schaal?
 8. Fotografierichtlijn ontbreekt (stijl, achtergrond, sfeerbeeld versus productfreisteller). Alleen de technische verhoudingen zijn vastgelegd.
 9. Header, footer, menu en productpagina zijn nog niet uitgelezen voor kleur en maat; alleen collectiepagina's en globale instellingen. Aanvullen bij de eerste opdracht die daaraan raakt.
-10. Bronstatus: `~/tante-rie/tante-rie-theme` heeft 40 niet-gecommitte wijzigingen ten opzichte van de laatste commit en kan afwijken van het live thema 204204900616. Voor waarden altijd het live thema vers ophalen (zie CLAUDE.md).
+10. Bronstatus (bijgewerkt 21-11-2026): het live thema is sinds 11-11-2026 205262029064 (Hallmark-restyle). De werkkopie daarvan staat in `.theme-werkkopie/live-2026-11-20`. `~/tante-rie/tante-rie-theme` is een oudere kopie (thema 196148101384) en niet de bron van het live thema; ook de `DESIGN.md` daarin is van vóór deze stijlgids-update. Voor waarden altijd het live thema vers ophalen (zie CLAUDE.md).
