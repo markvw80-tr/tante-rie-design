@@ -15,7 +15,9 @@
       "Bash(mkdir*)",
       "Bash(git status*)",
       "Bash(git log*)",
-      "Bash(git diff*)"
+      "Bash(git diff*)",
+      "mcp__d064a5fe-76b2-42de-be7d-8592a157fcab__theme_screenshot",
+      "mcp__claude_ai_Shopify__theme_screenshot"
     ],
     "deny": [
       "Read(.env)",
